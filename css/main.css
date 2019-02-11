@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+body{
+    background-image:url(../images/background-pets-9.jpg);
+    width:100vw;
+}
+.cabecalho{
+    display:flex;
+    justify-content: center;
+    flex-direction:center;
+}
+#meio{
+width:100vw;
+}
+#lateral{
+display:flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+}
+#footer{  
+    display:flex;
+    flex-direction:column;
+}
+#conteudo{
+    display:flex;
+    flex-direction:center;
+    justify-content: center;
+}
+#navbar{ 
+    display:flex;
+    justify-content: center;
+}
+H1{
+text-align: right;
+font-size: 2em;
+}
+H2{
+    text-align:right;
+}
+hr{
+    height:5px;
+    background-color:#7d97ad;
+}
+.logo {
+height: 20vh;
+width:15vw;
+} 
+.image {
+    width:90vw;
+    border-style:solid;
+    border-width: 5px;
+    border-color:black;
+    
+}
+.pictures-footer {
+    height:220px;
+    width:100%;
+}
+p {
+    text-align: center;
+    font-size:20px;    
+}
+p2 {
+    font-size:40px;
+    font-family:sans-serif;
+}
+.images-aside {
+    width:5vw;
+    height:5vw;
+}
+.grid {
+    max-width: 100%;
+    width: 100%;
+    
+}
+.row {
+    width: 100%;
+    display:flex;
+}
+.rowFooter {
+    display:flex;
+    justify-content: space-between;
+}
+.rowHeader {
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+}
+.rowNavBar {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    align-content: center;
+    width:100vw;
+}
+.rowAside{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.coluna {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.colunaAside{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    line-height:1px;
+}
+
+
+@media only screen and (min-device-width:360px) and (max-device-width:767px){
+    .rowAside{
+    display:flex;
+    flex-direction:row;
+    }
+    .images-aside {
+    width:10vw;
+    height:10vw
+    }    
+    .rowNavBar {
+        display:flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        flex-direction:center;
+    }
+    .image {
+        height:50vw;
+        width:77vw;
+    }
+    .pictures-footer {
+    height:150px;
+    width:150px;
+    }
+    .coluna {
+        display:flex;
+        justify-content:center;
+        flex-direction:center;
+        align-items:center;
+    }
+    .rowFooter {
+        flex-flow:row wrap;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    #lateral{
+    line-height:1px;
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    }
+    p2{
+        font-size:2em;
+    }
+    p{
+        font-size:1em;
+    }
+    logo{
+        height:10vh;
+        width:10vw;
+    }
+    
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1023px){
+    .image{
+        height:400px;
+        width:100%;
+    }
+    .coluna {
+        width:50%;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .rowFooter{
+        flex-flow:row wrap;
+    }
+    .pictures-footer{
+        height:150px;
+        width:150px;
+    }
+    #lateral{
+        float:left;
+    }
+}
+@media only screen and (min-width: 1024px) 
+{
+    p3 {
+        font-size:15px;
+    }
+    .image {
+        height:700px
+    }
+    .coluna {
+        width:33.33%;
+        display:flex;
+        justify-content:center;;
+        flex-direction:column;
+        align-items:center;;
+    }
+    .rowFooter {
+        flex-flow:row wrap;
+    }
+    #lateral{
+        float:left;
+    }
+}
